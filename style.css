@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    height: 100%;
+    margin: 0px;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.image-phone{
+    width: 400px;
+    margin: 100px 150px 100px 200px;
+    
+
+}
+
+
+.child-first{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    margin-top: 200px;
+    margin-left: 50px;
+    
+}
+
+.image-logo{
+    width: 250px;
+
+}
+
+.text{
+    font-size: 30px;
+    color: grey;
+    margin-top: 100px;
+}
+
+
+.Button-Download{
+    border: 2px solid green;
+    width: 200px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    color: green;
+}
+
+.Button-Learn-More{
+    border: 2px solid grey;
+    border-radius: 20px;
+    width: 200px;
+    margin-left: 20px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: grey;
+    
+}
+
+
+.child-second{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+
+}
+.child-third{
+    margin-top: 100px;
+}
+
+.img-android{
+    margin-left: 35px;
+}
+
+.img-win{
+    margin-left: 35px;
+}
+
